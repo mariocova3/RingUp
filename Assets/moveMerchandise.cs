@@ -16,6 +16,6 @@ public class moveMerchandise : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate () 
 	{
-		rb.MovePosition (transform.position - (transform.right*speed) * Time.deltaTime);
+		rb.MovePosition (transform.position + (transform.right*speed) * Time.deltaTime);
 	}
 }
